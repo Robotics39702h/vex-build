@@ -2,7 +2,7 @@
 
 echo "Downloading VEX SDK"
 # Get VEX SDK and put it in ~/sdk
-curl -L https://content.vexrobotics.com/vexcode/v5code/VEXcodeProV5_2_0_0_Preview1.dmg -o _vexcode_.dmg
+curl -L https://content.vexrobotics.com/vexcode/v5code/VEXcodeProV5_2_0_5_big_sur.dmg -o _vexcode_.dmg
 7z x _vexcode_.dmg || :
 7z x Payload~ ./VEXcode\ Pro\ V5.app/Contents/Resources/sdk -osdk_temp || :
 mkdir ~/sdk
